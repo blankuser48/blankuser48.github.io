@@ -10,7 +10,7 @@ body {
     padding: 10px;
     font-size: 50px;
     margin: 8px;
-
+    
 }
 
 .navbar {
@@ -24,7 +24,7 @@ body {
     color: #858585;
     font-size: 30px;
     text-shadow:
-    -1px -1px 2px #f5f5f5,
+    -1px -1px 2px #f5f5f5,  
     1px -1px 2px #f5f5f5,
     -1px 1px 2px #f5f5f5,
     1px 1px 2px #f5f5f5;
