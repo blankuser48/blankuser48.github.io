@@ -1,5 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #909090, #FFF 10%, #FFF 90%, #909090)
+    
 }
 
 .navbutton {
