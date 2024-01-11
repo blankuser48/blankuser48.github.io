@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, #909090, #FFF 10%, #FFF 90%, #909090)
-    
+    background-color: #454545;
+    margin: 0;
 }
 
 .navbutton {
@@ -12,17 +12,19 @@ body {
     padding: 10px;
     font-size: 50px;
     margin: 8px;
-    color: #858585;
+    color: #F5f5f5;
 }
 
 .navbar {
     background: radial-gradient(circle, #454545, #000);
     text-align: center;
-    border-radius: 8px;
-    opacity: 70%;
+    border-radius: 28px;
+    opacity: 100%;
     padding: 10px;
-    position: fixed;
-    width: 100%;
+    position: relative;
+    margin: auto; 
+    margin-top: 32px;
+    width: 95%;
     color: #858585;
     font-size: 30px;
     text-shadow:
@@ -30,4 +32,23 @@ body {
     1px -1px 2px #f5f5f5,
     -1px 1px 2px #f5f5f5,
     1px 1px 2px #f5f5f5;
+}
+
+.heading {
+    text-align: center;
+}
+
+.content {
+    background: linear-gradient(to bottom, #454545 75%, #303030 95%, #000);
+    text-align: center;
+    color: #f5f5f5;
+} 
+
+.main {
+    font-size: 36px;
+    
+}
+
+.footing {
+    text-align: center;
 }
