@@ -51,4 +51,32 @@ body {
 
 .footing {
     text-align: center;
+    font-size: 20px;
+}
+
+a:visited {
+    color: #858585;
+
+}
+
+a {
+    color: #FFF;
+}
+
+.githubLink:hover {
+    cursor: pointer;
+}
+
+.downloads {
+    text-align: center;
+
+}
+
+.DownloadLinks {
+    text-align: center;
+
+}
+
+.downloadButtons {
+    border-radius: 100px;
 }
