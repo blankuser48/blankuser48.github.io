@@ -87,3 +87,25 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.twitchLink {
+    border-top-right-radius: 20px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    width: 70px;
+    text-align: center;
+    background-color: #8e45f7;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.twitchLink:hover {
+    transition: 0.15s;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.twitchLink:active {
+    transform: scaleX(0.0001) scaleY(0.0001);
+    transition: 2s;
+    opacity: 30%;
+}
