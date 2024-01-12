@@ -19,21 +19,32 @@
 
     <div class="content">
         <div class="main">
+
+            <div>
+                <p style="font-size: 15px;">The buttons do funny things if you hover over them</p>
+            </div>
+
+
             <div class="socials">
                 <ul class="socialLinks">
-                    <button class="twitchLink" id="twitchButton">Twitch</button>
+                    <button class="twitchLink" id="twitchButton" onclick="twitchClicked()">Twitch</button>
                     <br>
-                    <button class="youtubeLink" id="youtubeButton">YouTube</button>
+                    <button class="youtubeLink" id="youtubeButton" onclick="youtubeClicked()">YT</button>
                     <br>
                     <button class="githubLink" id="githubButton">GitHub</button>
                 </ul>
             </div>
 
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
         </div>
 
 
 
-        <div class="footing"></div>
+        <div class="footing">
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://blankuser48.github.io/socials">blankuser48.github.io and all content on subseqent pages</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.youtube.com/channel/UCaN9Rfh51YPak8gDqmJGJUw">Beau Patin</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+            <br><br><br><br><br><br><br><br><br><br>
+        </div>
     </div>
 
 
@@ -47,7 +58,29 @@
 </body>
 
 <script>
+    function twitchClicked() {
+        let twitchButton = document.getElementById("twitchButton")
+        twitchButton.innerHTML = "Taking you there!"
+        window.open("https://twitch.tv/blank_user48")
+        setTimeout(1000)
+        twitchButton.innerHTML = "Twitch"
+    }
 
+    function youtubeClicked() {
+        let youtubeButton = document.getElementById("youtubeButton")
+        youtubeButton.innerHTML = "Blasting off!"
+        window.open("https://www.youtube.com/channel/UCaN9Rfh51YPak8gDqmJGJUw")
+        setTimeout(1000)
+        youtubeButton.innerHTML = "YT"
+    }
+
+    function githubClicked() {
+        let githubButton = document.getElementById("")
+        githubButton.innerHTML = "There ya go!"
+        widnow.open("https://github.com/blankuser48/")
+        setTimeout(1000)
+        githubButton.innerHTML = "GitHub"
+    }
 
 
     
